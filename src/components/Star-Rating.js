@@ -1,5 +1,4 @@
-//A one to five star rating component.  One of many available online to use on any application.
-//Star rating is selected in ReviewForm-Modal form and value is displayed in the review of the movie in MovieList Card.
+
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
@@ -34,7 +33,7 @@ class ReactStars extends Component {
   constructor(props) {
     super(props);
 
-    // set defaults
+   
 
     props = Object.assign({}, props);
 
@@ -52,9 +51,9 @@ class ReactStars extends Component {
       count: props.count,
       size: props.size,
       char: props.char,
-      // default color of inactive star
+     
       color1: props.color1,
-      // color of an active star
+ 
       color2: props.color2,
       half: props.half,
       edit: props.edit,
